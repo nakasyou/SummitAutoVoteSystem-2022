@@ -88,6 +88,6 @@ for i in range(num):
         ringo()
         touhu()
 
-# 素の except は使用せず、"except Exception" のように書く - これでも範囲が広すぎるため、例外の名前が分かれば書く
+    except Exception:  # 素の except は使用せず、"except Exception" のように書く - これでも範囲が広すぎるため、例外の名前が分かれば書く
         err += 1
         print("er")
